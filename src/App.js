@@ -9,8 +9,10 @@ import'./App.css'
 import Header from "./componente/layout/Header";
 import Nav from "./componente/layout/Nav";
 import Footer from "./componente/layout/Footer"
+// paginas
 import HomePage from "./pages/Homepage";
 import Ejemplo1 from './pages/Ejemplo1';
+import Ejemplo2 from './pages/Ejemplo2';
 
 function App() {
   return (
@@ -21,7 +23,8 @@ function App() {
       <Nav/>
       <Routes>
       <Route path='/' element={<HomePage/>}></Route>
-      <Route path='/ejemplo1' element={<Ejemplo1/>}></Route>
+      <Route path='/Ejemplo1' element={<Ejemplo1/>}></Route>
+      <Route path='/Ejemplo2' element={<Ejemplo2/>}></Route>
         </Routes>
       </BrowserRouter>
       <Footer/>    
