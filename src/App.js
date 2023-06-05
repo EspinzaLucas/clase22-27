@@ -24,7 +24,7 @@ function App() {
       <Route path='/ejemplo1' element={<Ejemplo1/>}></Route>
         </Routes>
       </BrowserRouter>
-      <Footer/>      
+      <Footer/>    
     </div>
   )
 }
